@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    font-family: 'Unna', serif;
+    font-size: 1.2em;
+    background-image: url("../imagenes/fondo2.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#contenedor{
+    width: 90%;
+    margin: 2px auto;
+
+}
+li {
+    display: inline;
+  }
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #51568d;
+    color: blanchedalmond;
+   
+  }
+  article{
+  
+    border: 1px solid silver;
+    border-radius: 10px 20px 25px 50px;
+    color: aliceblue;
+    background-color: black;
+  }
+  p{
+    padding: 5px 50px;
+    
+  }
+ .segundo{
+  font-family: 'DM Serif Text', serif;
+  
+  }

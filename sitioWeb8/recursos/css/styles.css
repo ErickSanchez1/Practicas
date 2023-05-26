@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:black ;
+    color: white;
+    width: 90%;
+    margin: 5px auto;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*este es del sitio web 8*/
+.cabecera{
+    text-align: center;
+    background: url('../imagenes/banner.jpg');
+    background-size: cover;
+    height: 400px;
+    padding-top: 140px;
+    /* font-size: 1.6em;    */
+    font-size: 35px;
+    color: white;
+}
+
+.video{
+    margin-top: 10px;
+    width: 450;
+}
+
+.item2{
+    width: 33%;
+    text-align: justify;
+    border-right: 2px rgb(116, 71, 173) outset;
+    margin: 2px;
+    padding: 5px;
+}
+
+ /*aqui termina el sitio web 8 */
+
+.logotipo{
+    width: 15%;
+}
+
+.menu{
+    width: 45%;
+}
+
+.botones{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contenedor .menu ul li{
+    display: inline-flex;
+    padding-right: 15px;
+    font-size: 1.2em;
+}
+
+a{
+    color: aliceblue;
+}
+.contenedor .menu ul li a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(55, 46, 180);
+}
+
+.cajas{
+    background-color: rgb(7, 38, 216);
+    width: 150px;
+    height: 35px;
+    border: 1px silver solid;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+@media (max-width:600px) {
+    .contenedor{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .cabecera{
+    font-size: 1em;
+   }
+
+   .cabecera, .item, .producto, .item2, .video{
+    width: 100%;
+   }
+
+}
+
+.item{
+    width: 33.3%;
+    padding: 10px;
+    text-align: justify;
+}
+
+h2{
+    color: tomato;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.producto{
+    width: 33.3%;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+/* Formulario */
+form{
+    top: 80%;
+	width:300px;
+	padding:30px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#231a79;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #a15454;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+}

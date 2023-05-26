@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(22, 22, 24);
+    color: aliceblue;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 5px auto;
+    /* Es para que te lo acomode hacia abajo flex-wrap  */
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.contenedor .menu, ul, li{
+    display: inline-flex;
+    padding-right: 15px;
+    font-size: 1.1em;
+}
+.contenedor .menu, ul, li, a{
+    color: rgb(255, 255, 255);
+     text-decoration: none;
+}
+a:hover{
+    text-decoration: rgb(122, 26, 10);
+    color: rgb(18, 50, 197);
+}
+
+
+.menu{
+    width: 95%;
+    padding: 15px;
+    
+}
+
+.caja{
+    background-color: rgb(77, 17, 17);
+    width: 150px;
+    height: 40px;
+    color: aliceblue;
+    border: 1px silver solid;
+    border-radius: 5px;
+}
+.item{
+    width: 33.3%;
+    padding: 10px;
+    text-align: justify;
+}
+.item h2{
+    color:rgb(221, 69, 69);
+}
+
+header h1{
+	background-image: url(../imagenes/logo.jpg);
+	color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover  ;
+	/* height: 400px; es algo parecido a min-heigth*/
+	text-align: center;
+	min-height: 400px;
+	font-size:  40px;
+	/* para la parte ded abajo una separacion */
+	margin-bottom: 40px; 
+    padding-top: 15%;
+    
+	
+}

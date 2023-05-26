@@ -1,0 +1,125 @@
+/* *{
+	padding: 0px;
+	margin: 0px;
+} */
+body{
+	font-family: 'Lilita One', cursive;
+
+	background-color: rgb(29, 14, 70);
+}
+.contenedor{
+	width: 90%;
+	margin: 3px auto;
+}
+nav{
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	opacity: 0.7;
+    padding: 10px;
+}
+
+nav ul {
+padding: 0px;
+list-style: none;
+}
+/* NOTA PARA EL MENU EN LINEA */
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	font-size: 1.2em;
+	padding-right: 40px;
+	color: rgb(255, 255, 255);
+
+}
+
+nav a:hover{
+	text-decoration: underline;
+	/* color: rgb(111, 231, 121); */
+    background-color: rgb(0, 16, 156);
+    padding: 23px;
+    color: rgb(131, 253, 120);
+}
+
+header{
+	background-image: url(../imagenes/logo.jpg);
+	color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover  ;
+	/* height: 400px; es algo parecido a min-heigth*/
+	text-align: center;
+	min-height: 400px;
+	font-size:  30px;
+	/* para la parte ded abajo una separacion */
+	margin-bottom: 50px; 
+    
+	
+}
+
+#izq{
+    width: 25%;
+	float: left;
+	/* para cuando modificas y se adapta con el box y el border-box */
+	padding: 5px 20px;
+	box-sizing: border-box;
+	background-color: rgb(99, 55, 55);
+	color: rgb(255, 255, 255);
+   
+}#der{
+    width: 25%;
+	float: right;
+	/* para cuando modificas y se adapta con el box y el border-box */
+	padding: 5px 20px;
+	box-sizing: border-box;
+	background-color: rgb(99, 55, 55);
+	color: rgb(255, 255, 255);
+}
+.superior{
+   padding: 10px;
+   
+}
+
+.abajo{
+    padding: 10px;
+    padding-top: 10px;
+    margin: auto;
+
+}
+#izquierda{
+	width: 50%;
+	float: left;
+	/* para cuando modificas y se adapta con el box y el border-box */
+	padding: 5px 2px;
+	box-sizing: border-box;
+	background-color: rgb(117, 74, 87);
+	color: rgb(255, 255, 255);
+}
+
+#principal{
+	float: left;
+	width: 50%;
+	background-color: rgb(96, 71, 119);
+	color: rgb(255, 255, 255);
+}
+main h2{
+	text-align: center;
+	background-color: rgb(189, 141, 235);
+	color: rgb(255, 255, 255);
+}
+#derecha{
+	width: 50%;
+	float: right;
+    padding: 5px 20px;
+	box-sizing: border-box;
+	background-color: rgb(39, 97, 56);
+	color: rgb(255, 255, 255);
+
+}
+footer{
+	clear: both;
+    font-size: 20px;
+	text-align: center;	
+	background-color: rgb(22, 22, 24);
+	color: rgb(255, 255, 255);
+}
